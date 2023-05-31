@@ -26,6 +26,19 @@ Step13:Click start button and check the output
 
 ## THEORY:
 
+In this project, we will learn about LED Matrix Displays and two different projects on Arduino 8×8 LED Matrix Interface. The first project will be a simple interface between Arduino and 8X8 LED Matrix to display information (even scrolling information and images can be displayed) and the second project will be an advanced project where the 8×8 LED Matrix is controlled through an Android device.An LED matrix is a two dimensional array of LEDs that can be used to display symbols, characters or even images. Based on the orientation of the LEDs in the matrix, there can be two types of LED matrices. They are Common Row Anode and Common Row Cathode.
+### LED Matrix
+An 8 x 8 LED matrix display is used in this project to display the information. LED matrices are available in different styles like single color, dual color, multi-color or RGB LED matrix. They are also available in different dimensions like 5 x 7, 8 x 8, 16 x 16, 32 x 32 etc. Based on the arrangement of the LEDs in the matrix, an LED matrix can be either common row anode or common row cathode. In case of common row anode type LED matrix, the current sources (high or positive voltage) are given to the rows A-D and the current sinks (low or negative voltage or ground) are given to the columns 1-4.
+
+![image](https://github.com/anishkumar-Embedded/LED-array-Interfacing-/assets/71547910/6f906d3a-bc5a-4188-818c-c213fddc1363)
+
+In case of common row cathode type LED matrix, the current sources (high or positive voltage) are given to the columns 1-4 and the current sinks (low or negative voltage or ground) are given to the rows A-D.
+
+![image](https://github.com/anishkumar-Embedded/LED-array-Interfacing-/assets/71547910/f5beccc0-5949-4a8b-90ea-e7c8c1844072)
+
+The LED matrix used in this project is a common row cathode type LED matrix. While developing the project, the type of LED matrix must be known and the program must be written accordingly.
+
+
 ## PROGRAM:
 
 ## CIRCUIT DIAGRAM:
