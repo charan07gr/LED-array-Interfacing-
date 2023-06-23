@@ -41,9 +41,110 @@ The LED matrix used in this project is a common row cathode type LED matrix. Whi
 
 ## PROGRAM:
 
+int colpin1=9; </br>
+int colpin2=10; </br>
+int colpin3=11; </br>
+int colpin4=12; </br>
+int colpin5=13; </br>
+int rowpin1=0; </br>
+int rowpin2=1; </br>
+int rowpin3=2; </br>
+int rowpin4=3; </br>
+int rowpin5=4; </br>
+int rowpin6=5; </br>
+int rowpin7=6; </br>
+void setup() </br>
+{ </br>
+pinMode(colpin1,OUTPUT); </br>
+pinMode(colpin2,OUTPUT); </br>
+pinMode(colpin3,OUTPUT); </br>
+pinMode(colpin4,OUTPUT); </br>
+pinMode(colpin5,OUTPUT); </br>
+pinMode(rowpin1,OUTPUT); </br>
+pinMode(rowpin2,OUTPUT); </br>
+pinMode(rowpin3,OUTPUT); </br>
+pinMode(rowpin4,OUTPUT); </br>
+pinMode(rowpin5,OUTPUT); </br>
+pinMode(rowpin6,OUTPUT); </br>
+pinMode(rowpin7,OUTPUT); </br>
+} </br>
+void loop() </br>
+{ </br>
+digitalWrite(colpin1,HIGH); </br>
+digitalWrite(colpin2,LOW); </br>
+digitalWrite(colpin3,LOW); </br>
+digitalWrite(colpin4,LOW); </br>
+digitalWrite(colpin5,LOW); </br>
+digitalWrite(rowpin1,LOW); </br>
+digitalWrite(rowpin2,LOW); </br>
+digitalWrite(rowpin3,LOW); </br>
+digitalWrite(rowpin4,LOW); </br>
+digitalWrite(rowpin5,LOW); </br>
+digitalWrite(rowpin6,LOW); </br>
+digitalWrite(rowpin7,LOW); </br>
+//delay(10) </br>
+digitalWrite(colpin1,LOW); </br>
+digitalWrite(colpin2,HIGH); </br>
+digitalWrite(colpin3,LOW); </br>
+digitalWrite(colpin4,LOW); </br>
+digitalWrite(colpin5,LOW); </br>
+digitalWrite(rowpin1,HIGH); </br>
+digitalWrite(rowpin2,HIGH); </br>
+digitalWrite(rowpin3,HIGH); </br>
+digitalWrite(rowpin4,LOW); </br>
+digitalWrite(rowpin5,HIGH); </br>
+digitalWrite(rowpin6,HIGH); </br>
+digitalWrite(rowpin7,LOW); </br>
+//delay(10); </br>
+digitalWrite(colpin1,LOW); </br>
+digitalWrite(colpin2,LOW); </br>
+digitalWrite(colpin3,HIGH); </br>
+digitalWrite(colpin4,LOW); </br>
+digitalWrite(colpin5,LOW); </br>
+digitalWrite(rowpin1,HIGH); </br>
+digitalWrite(rowpin2,HIGH); </br>
+digitalWrite(rowpin3,HIGH); </br>
+digitalWrite(rowpin4,LOW); </br>
+digitalWrite(rowpin5,HIGH); </br>
+digitalWrite(rowpin6,HIGH); </br>
+digitalWrite(rowpin7,LOW); </br>
+//delay(10); </br>
+digitalWrite(colpin1,LOW); </br>
+digitalWrite(colpin2,LOW); </br>
+digitalWrite(colpin3,LOW); </br>
+digitalWrite(colpin4,HIGH); </br>
+digitalWrite(colpin5,LOW); </br>
+digitalWrite(rowpin1,HIGH); </br>
+digitalWrite(rowpin2,HIGH); </br>
+digitalWrite(rowpin3,HIGH); </br>
+digitalWrite(rowpin4,LOW); </br>
+digitalWrite(rowpin5,HIGH); </br>
+digitalWrite(rowpin6,HIGH); </br>
+digitalWrite(rowpin7,LOW); </br>
+// delay(10); </br>
+digitalWrite(colpin1,LOW); </br>
+digitalWrite(colpin2,LOW); </br>
+digitalWrite(colpin3,LOW); </br>
+digitalWrite(colpin4,LOW); </br>
+digitalWrite(colpin5,HIGH); </br>
+digitalWrite(rowpin1,LOW); </br>
+digitalWrite(rowpin2,LOW); </br>
+digitalWrite(rowpin3,LOW); </br>
+digitalWrite(rowpin4,LOW); </br>
+digitalWrite(rowpin5,LOW); </br>
+digitalWrite(rowpin6,LOW); </br>
+digitalWrite(rowpin7,LOW); </br>
+//delay(100); </br>
+} </br>
+
+
 ## CIRCUIT DIAGRAM:
+![image](https://github.com/charan07gr/LED-array-Interfacing-/assets/132322854/a680786f-df07-4c87-8567-afc726ef632d)
+
 
 ## OUTPUT:
+![image](https://github.com/charan07gr/LED-array-Interfacing-/assets/132322854/9cc1abce-de43-4d93-8102-29bbdda21127)
+
 
 ## RESULT:
 Thus the character was displayed in LED Array display using Arduino UNO controller.
